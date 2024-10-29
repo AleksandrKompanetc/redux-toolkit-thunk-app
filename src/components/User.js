@@ -1,4 +1,6 @@
 import React from 'react';
+import FirstName from './FirstName';
+import LastName from './LastName';
 
 const User = () => {
   return (
@@ -17,13 +19,13 @@ const User = () => {
         <div className='flex flex-col'>
           <div className='flex font-light'>First Name</div>
           <div className='flex'>
-
+            <FirstName />
           </div>
         </div>
         <div className='flex flex-col'>
           <div className='flex font-light'>Last Name</div>
           <div className='flex'>
-            
+            <LastName />
           </div>
         </div>
       </div>
