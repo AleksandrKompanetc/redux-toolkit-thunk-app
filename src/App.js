@@ -1,4 +1,5 @@
 import Form from "./components/Form";
+import Posts from "./components/Posts";
 import TodoItem from "./components/TodoItem";
 import User from "./components/User";
 
@@ -18,7 +19,7 @@ function App() {
           </div>
           <div className="w-1/3">
             <h1 className="font-bold my-5">Redux Toolkit Async Thunk</h1>
-            
+            <Posts />
           </div>
         </header>
       </div>
