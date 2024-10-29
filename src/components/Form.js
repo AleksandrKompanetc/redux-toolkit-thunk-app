@@ -6,7 +6,7 @@ const Form = () => {
       <input 
         type="text"
         placeholder='Type something...' 
-        className='w-full p-1 mb-2 focus:outline-none focus:border-lime-500 focus:border-2 placeholder:text-sm'
+        className='w-full p-1 focus:outline-none focus:border-lime-500 focus:border-2 placeholder:text-sm'
       />
       <button 
         type='submit'
