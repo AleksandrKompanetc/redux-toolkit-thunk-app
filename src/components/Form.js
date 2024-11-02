@@ -14,6 +14,7 @@ const Form = () => {
       completed: false,
     }
     dispatch(addTodo(todo))
+    setTodoValue('')
   }
   return(
     <form className='w-full flex' onSubmit={(e) => e.preventDefault()}>
@@ -26,7 +27,7 @@ const Form = () => {
       />
       <button 
         type='submit'
-        onClick={addTodoHandler()}
+        onClick={() => addTodoHandler()}
         className='shrink-0 bg-lime-300 hover:bg-lime-400 transition-all px-3 text-sm'
       >
         Submit
